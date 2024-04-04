@@ -1,0 +1,10 @@
+.header__nav-link {
+    text-decoration: none;
+    font-weight: 400;
+    cursor: pointer;
+    padding: 5px 0;
+    color: var(--Darkgrayishblue);
+    font-size: 16px;
+    font-family: "Kumbh Sans", sans-serif;
+    letter-spacing: 1px;
+}
