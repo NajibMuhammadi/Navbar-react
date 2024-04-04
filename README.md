@@ -1,1 +1,1 @@
-![Design preview for the E-commerce product page coding challenge](./src/assets/profile.jpg);
+(./src/assets/header-image.png);
