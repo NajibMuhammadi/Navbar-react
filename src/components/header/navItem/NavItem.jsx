@@ -1,9 +1,14 @@
 import './navItem.css';
+import { Link } from 'react-router-dom';
 
-function NavItem({ link, task }) {
+function NavItem() {
     return (
         <li className='header__navItem'>
-            <a className='header__nav-link ' href={link} >{task}</a>
+            <Link to='/' className='header__navItem-link'>Collections</Link>
+            <Link to='/men' className='header__navItem-link'>Men</Link>
+            <Link to='/women' className='header__navItem-link'>Women</Link>
+            <Link to='/about' className='header__navItem-link'>About</Link>
+            <Link to='/contact' className='header__navItem-link'>Contact</Link>
         </li>
     )
 }
