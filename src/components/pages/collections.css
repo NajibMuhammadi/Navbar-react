@@ -1,0 +1,9 @@
+.main {
+    padding: 92px 52px 30px;
+}
+
+.main__product-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6rem;
+}

@@ -4,6 +4,7 @@ import Nav from './headerNav/Nav'
 import Profile from './profile/Profile'
 
 function Header() {
+
     return (
         <div className='header'>
             <Nav />
